@@ -65,14 +65,16 @@
 #      "import numpy as  np" if it does not bring any error then its installed successfully.
 # Create an array "a=np.array([[1,2,4],[5,7,9]],dtype='float')
 #                 print("array created:\n",a)
+#   import matplotlib and press enter to check if its installed successfully
+#   import pandas and press enter to check if its installed successfully
+#   import scipy and press enter to check if its installed successfully
 #
-#
-#
-#
-#
-#
-#
-#
+#              ANACONDA
+# It is a free and opensource distribution of python and R language
+# Conda is a package manager system similar to pip in python.
+#                    HOW TO DOWNLOAD ANACONDA
+# Open the Browser search for "anaconda" and use the official website "www.anaconda.com"
+# Click on download, choose the OS you're using.
 #
 #
 #
