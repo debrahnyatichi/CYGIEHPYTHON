@@ -59,10 +59,12 @@
 # To install scipy library "pip install scipy"
 # To download and install pandas library "pip install pandas"
 # To install matplotlib library "pip install matplotlib"
-# To check if libraries are successfully installed:
-#       Type "python" and press enter
-#       "import numpy as  np"
 #
+#              TO CHECK INSTALLED LIBRARIES
+# Type "python" and press enter
+#      "import numpy as  np" if it does not bring any error then its installed successfully.
+# Create an array "a=np.array([[1,2,4],[5,7,9]],dtype='float')
+#                 print("array created:\n",a)
 #
 #
 #
