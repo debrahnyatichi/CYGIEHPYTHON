@@ -1,5 +1,8 @@
 # Command to print hello world!
 import numpy as np
+import scipy
+import matplotlib
+import pandas
 
 print("Hello World!")
 
