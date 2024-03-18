@@ -75,12 +75,13 @@
 #                    HOW TO DOWNLOAD ANACONDA
 # Open the Browser search for "anaconda" and use the official website "www.anaconda.com"
 # Click on download, choose the OS you're using.
-# Double click on the downloaded application file
+# Double-click on the downloaded application file
 # Installation window appears, click on "Just Me" and click on next
 # Choose installation location or leave it as default and click on next
 # Click on the first checkbox "Add Anaconda to my path environment" and click on install.
-#
-#
+# After installation is complete click on next and next
+# Uncheck the 2 boxes: Launch Anaconda navigator and Getting started with anaconda
+# Click on Finish
 #
 #
 #
