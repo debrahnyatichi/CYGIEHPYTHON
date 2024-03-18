@@ -51,11 +51,11 @@
 # Check whether it was installed successfully by using this command in cmd "python --version"
 # To run a basic command type "py" and press enter
 # print("Hello World!") and press enter
-#
+
 #               TO INSTALL LIBRARIES OF PYTHON
 # Make sure the latest pip is installed in your laptop type "pip --version" and press enter
 # To upgrade pip use this command "python -m pip install --upgrade pip"
-# Install numpy using this command "pip install numpy" and press enter wait until its successfully downloaded
+# Install numpy using this command "pip install numpy" and press enter wait until it's successfully downloaded
 # To install scipy library "pip install scipy"
 # To download and install pandas library "pip install pandas"
 # To install matplotlib library "pip install matplotlib"
@@ -75,6 +75,30 @@
 #                    HOW TO DOWNLOAD ANACONDA
 # Open the Browser search for "anaconda" and use the official website "www.anaconda.com"
 # Click on download, choose the OS you're using.
+# Double click on the downloaded application file
+# Installation window appears, click on "Just Me" and click on next
+# Choose installation location or leave it as default and click on next
+# Click on the first checkbox "Add Anaconda to my path environment" and click on install.
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #
 #
 #
