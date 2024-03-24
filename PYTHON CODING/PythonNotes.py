@@ -108,4 +108,6 @@
 #A variable name can only contain aplha-numeric characters and underscore(A-z,0-9 and _)
 #Variable names are case-sensitive(date,Date and DATE are 3 different variables)
 #There are several Techniques to write multi words variables:
-#
+#1.Camel case
+#2.Pascal case
+#3.Snake case
