@@ -83,7 +83,7 @@
 # Uncheck the 2 boxes: Launch Anaconda navigator and Getting started with anaconda
 # Click on Finish
 # Launch anaconda prompt or navigator to check all you need.
-#
+
 #
 #
 #
