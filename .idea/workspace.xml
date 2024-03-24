@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae50e0ad-509a-4c64-88d9-fb68d7c7453b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PYTHON CODES-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PythonIntro-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdditionOfTwoNumbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON CODES.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonIntro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON CODING/.ipynb_checkpoints/PythonIntro-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON CODING/PYTHON CODES.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON CODING/PYTHON CODES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON CODING/PythonIntro.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

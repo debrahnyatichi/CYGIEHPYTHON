@@ -25,3 +25,9 @@ a=7
 b=8
 c=a+b
 print(c)
+
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+c=int(input("Enter third number:"))
+d=a*b*c
+print("multiplication of three numbers:",d)

@@ -85,23 +85,27 @@
 # Launch anaconda prompt or navigator to check all you need.
 #
 #
+#                                 VARIABLES IN PYTHON
+#Python variables are containeers for storing data values
+#We do not need to declare variables or data types before using them like in other programming languages
+#Python is not statically types, a variable is created the moment we assign a value to it.
+#A variable is a name given to a memory loctation
+# car ="BMW" Here we have variable car having a value called BMW. The value is of type STRING because it is written withiin double quotes
+#Variables can have values of multiple data types
+#Python allows you to assign values to multiple variables in one line. 
+#For example: x,y,z="BMW","Audi","Mercedes" ; Here we have assignes xyz to Audi,BMW and mercedes in one line.
+#                               OBJECT REFERENCES IN PYTHON
+#Python variable is a symbolic name that is a reference or pointer to an object
+#Once an object is assigned to a variable, you can refer to the object by that name.
+#Example1: a=50 here we are assigning an int value of 50 to a variable 'a'.. An assignment creates an integer object with a value of 50 and assigns a variable A to that object
+#Example2: a=50 b=a Here we have assigned a variable A which has a value of 50 and then created another variable called B that has a value stored in A
+#In the case above python does not create another variable,but creates a symbolic name or reference called B which points to the same object that A points to.
+# Example3: a=50 b=100 Here python creates a new integer object with a value of 100 and B becomes a reference to it
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+#                                    RULES FOR PYTHON VARIABLES
+#A variable name must start with a letter or the underscore character
+#A variable cannot start with a number
+#A variable name can only contain aplha-numeric characters and underscore(A-z,0-9 and _)
+#Variable names are case-sensitive(date,Date and DATE are 3 different variables)
+#There are several Techniques to write multi words variables:
 #
