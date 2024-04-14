@@ -111,3 +111,19 @@
 #1.Camel case
 #2.Pascal case
 #3.Snake case
+#Reserve keywords cannot be using in naming variable.
+#They include:
+#False	def	if	raise
+#None	del	import	return
+#True	elif	in	try
+#and	else	is	while
+#as	except	lambda	with
+#assert	finally	nonlocal	yield
+#break	for	not	
+#class	from	or
+#continue	global	pass
+#                   BASIC OPERATIONS ON PYTHON
+#Addition
+#Subtraction
+#Division
+#
