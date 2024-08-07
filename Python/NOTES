@@ -1,0 +1,68 @@
+INTRODUCTION TO PYTHON
+Python is a high-level object-oriented programming language.
+It was developed by Guido Van Rossum in 1989 and was released in 1991.
+The name python was taken from the popular BBC comedy show of that time "Monty Python's Flying Circus".
+
+FEATURES OF PYTHON
+1. Easy to use and learn: python has a simple structure and a clearly defined syntax thus allows the learner to pick up
+the language easily.
+2. Cross platform: python can run on different operating systems such as: windows, linux and mac.
+This makes it  a portable language, it enables programmers to develop the software for several competing platform by
+writing a program only once.
+3. Free and Open-Source: it is freely available at official website and its source code is available to the public.
+4. Object Oriented Language: It uses an Object Oriented Approach that encapsulates codes within objects
+5. Large Standard Library: it provides a collection of libraries for various tasks such as: ML, web development and data
+ analysis.
+6. Memory Management: In python you don't need to assign the data type of the variable, when you assign some value to
+the variable it automatically allocates the memory to the variable at runtime.
+
+USES OF PYTHON PROGRAMMING
+1. It is used to develop desktop applications
+2. It is used to build web applications
+3. It is popularly used in the field of data science, ML and AI to analyse data, build predictive models and make
+business decisions
+4. It is widely used in game development.
+
+POPULAR PYTHON FRAMEWORKS AND LIBRARIES
+1. Web development(server-side) Django, Flask, Pyramid, CherryPy
+2. GUI based applications: Tk(tkinter), PyGTK, PyQt, PyJs(Python javascript)
+3. Machine Learning: Tensorflow, PyTorch, Scikit-learn, Matplotlib
+4. Mathematics: Numpy, pandas
+
+BEST PYTHON IDEs
+They are used to write programs in python and perform specific tasks.
+1. Jupyter Notebook: it is part of the anaconda distribution that is widely used this days.
+2. VS Code: it is from microsoft and is most preferred for learners and companies
+3. Sublime text: it is the most popular text editor
+4. Pycharm
+5. Python IDLE
+6. Spyder Notebook
+
+TOP COMPANIES USING PYTHON
+1. Google
+2. Quora
+3. Facebook
+4. Netflix
+5. Instagram
+6. Spotify
+
+INSTALLATION:
+1. Install Python- latest version for your Operating System.
+2. Confirm python is install successfully: in Command prompt(cmd) type: python --version
+3. Install python libraries(numpy, scipy, matplotlib and pandas) USING pip:
+4. Install latest pip version: to check if it is installed using this command in cmd: pip --version
+To upgrade pip: python -m pip install --upgrade pip
+Install numpy: pip install numpy             to confirm it is installed try importing the library
+Install scipy: pip install scipy             to confirm it is installed try importing the library
+Install Pandas: pip install pandas           to confirm it is installed try importing the library
+Install Matplotlib: pip install matplotlib   to confirm it is installed try importing the library
+
+CHECKING NUMPY
+import numpy as np
+a=np.array([[1,2,4], [5,7,9]],dtype = 'float')
+print("Array Created:\n,"a)
+
+Anaconda
+It is a free and opensource distribution on python and R language.
+Conda is a package manager system similar to pip in python.
+Download and install it in your laptop.
