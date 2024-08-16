@@ -39,12 +39,13 @@ They are used to write programs in python and perform specific tasks.
 6. Spyder Notebook
 
 TOP COMPANIES USING PYTHON
-1. Google
-2. Quora
-3. Facebook
-4. Netflix
-5. Instagram
-6. Spotify
+    1. Google
+    2. Quora
+    3. Facebook
+    4. Netflix
+    5. Instagram
+    6. Spotify
+    7. IBM
 
 INSTALLATION:
 1. Install Python- latest version for your Operating System.
@@ -99,3 +100,14 @@ BENEFITS OF A PYTHON
     7. It has a wide range of applications.
     8. It has a vast and active community
     9. It has built-in libraries and frameworks
+FUNDAMENTALS OF PYTHON PROGRAMMING
+    1. Basic syntax
+    2. Hands on any code editor: vim or Jupyter notebook, google colab and atom
+    3. Study python indentation
+    4. Learn loops and logical operators
+    5. Learn data types and variables
+    6. Learn operators
+    7. Study strings and numbers.
+    8. Knowledge of conditional statements and type conversions.
+    9. Learn functions and built-in functions.
+
