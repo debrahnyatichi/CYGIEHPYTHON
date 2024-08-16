@@ -150,3 +150,14 @@ Probability is a way to gauge how likely something is to happen.
     6. Database management: databases store and analyze data using programs like teradata, MySQL Server, oracle DB.
 Annual salary for a data science: $80000 =ksh.10,320,000
 
+WEB DEVELOPMENT
+    1. Have a good grasp of 2 frameworks: django and flask
+Django: a high level web development framework mostly utilized by businesses and startups.
+You can utilize Dbs like: PostgreSQL, MySQL SQL lite and OracleDB
+It adds ease to the MVC design.
+It can take 2 to 5 weeks if you are a beginner and unfamiliar with authentication,URL routing, API models.
+Flask: It is appropriate for creating straighforward, lightwweight web applications
+it offers capabilities like support for developing rest APIs and unit testing it can take 2 week to learn.
+    2. Have a good command or front-end technologies:HTML, CSS and JavaScript
+    3. if you want to build a GUI based app then you should have kinter MVC(Model View Control) and MVD(Model View Template) architecture.
+    4. Average salary: $45000 = ksh. 5,805,000
