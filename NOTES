@@ -1,4 +1,4 @@
-INTRODUCTION TO PYTHON
+﻿INTRODUCTION TO PYTHON
 Python is a high-level object-oriented programming language.
 It was developed by Guido Van Rossum in 1989 and was released in 1991.
 The name python was taken from the popular BBC comedy show of that time "Monty Python's Flying Circus".
@@ -60,7 +60,17 @@ Install Matplotlib: pip install matplotlib   to confirm it is installed try impo
 CHECKING NUMPY
 import numpy as np
 a=np.array([[1,2,4], [5,7,9]],dtype = 'float')
-print("Array Created:\n,"a)
+print("Array Created:\n", a)
+
+
+
+
+
+
+
+
+
+
 
 Anaconda
 It is a free and opensource distribution on python and R language.
