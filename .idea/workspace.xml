@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae50e0ad-509a-4c64-88d9-fb68d7c7453b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.arithmetic&amp;math">
+  <component name="RunManager" selected="Python.Exercises">
     <configuration name="Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -167,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.arithmetic&amp;math" />
         <item itemvalue="Python.Exercises" />
+        <item itemvalue="Python.arithmetic&amp;math" />
         <item itemvalue="Python.PYTHON CODES" />
       </list>
     </recent_temporary>
