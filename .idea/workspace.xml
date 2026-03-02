@@ -48,6 +48,7 @@
     "Python.arithmetic&math.executor": "Run",
     "Python.calculator.executor": "Run",
     "Python.conditional_expressions.executor": "Run",
+    "Python.format_specifiers.executor": "Run",
     "Python.if_statements.executor": "Run",
     "Python.logical_operators.executor": "Run",
     "Python.madlibsgame.executor": "Run",
@@ -82,7 +83,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.string_indexing">
+  <component name="RunManager" selected="Python.format_specifiers">
     <configuration name="Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -127,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logical_operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="format_specifiers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logical_operators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/format_specifiers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.format_specifiers" />
         <item itemvalue="Python.string_indexing" />
         <item itemvalue="Python.Exercises" />
         <item itemvalue="Python.string_methods" />
         <item itemvalue="Python.conditional_expressions" />
-        <item itemvalue="Python.logical_operators" />
       </list>
     </recent_temporary>
   </component>
