@@ -34,3 +34,5 @@ Confirm if django is installed in your project: **pip freeze**
 
 ### Create Your 1st Project
 create: **django-admin startproject myproject**
+
+## Django Basics
