@@ -133,10 +133,4 @@ Contributions are welcome! If you'd like to add exercises, fix bugs, or improve 
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 *Happy coding! 🚀 Keep learning, keep building.*
