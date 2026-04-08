@@ -130,7 +130,7 @@ Contributions are welcome! If you'd like to add exercises, fix bugs, or improve 
 
 **Deborah Nyatichi**
 - GitHub: [@debrahnyatichi](https://github.com/debrahnyatichi)
-
+- LinkedIn: [@DeborahNyatichi] (https://www.linkedin.com/in/deborah-nyatichi-886b04206/)
 ---
 
 *Happy coding! 🚀 Keep learning, keep building.*
