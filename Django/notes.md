@@ -102,3 +102,5 @@ create: **django-admin startproject myproject**
 - access to1: **to1**
 * Exit python: CTRL+D, then type Y
 
+## Displaying Records
+* Rendering HTML Template
