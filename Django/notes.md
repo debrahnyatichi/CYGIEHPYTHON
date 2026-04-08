@@ -88,3 +88,17 @@ create: **django-admin startproject myproject**
 - Make sure in your settings.py in installed apps your app is listed
 -Apply migrations in your project folder: **python manage.py makemigrations**; this creates the 0001_initial.py
 - apply the migrations: **python manage.py migrate**; all pending migrations are made.
+
+## Lesson 5: Adding Database Records
+* Launch interactive python:
+         *in windows: ipython or python manage.py shell
+         * in linux: ipython3 or python manage.py shell
+- Import Tour class from the models.py: **from asiatoursagency.models import Tour**
+- Instantiate from Tour class, a tour object: e.g. to1 = Tour(origin_country="Japan", destination_country="China", number_of_nights=10, price=1500)
+- Access attributes of to1: e.g. **to1.origin_country**
+- to get a better string representation of to1: enter the str method in the tour class in models.py of the application
+- str function brings a nice string representation of whatever want to display
+- save to1 to the DB: **to1.save()**
+- access to1: **to1**
+* Exit python: CTRL+D, then type Y
+
