@@ -102,5 +102,10 @@ create: **django-admin startproject myproject**
 - access to1: **to1**
 * Exit python: CTRL+D, then type Y
 
-## Displaying Records
+## Lesson 6: Displaying Records
 * Rendering HTML Template
+
+## Lesson 7: Admin Dashboard
+- Django admin: easy for adding and modifying data.
+- admin.py in your application folder
+- Create the admin: **python manage.py createsuperuser**
