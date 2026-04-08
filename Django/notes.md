@@ -1,5 +1,5 @@
 # Django Web Framework
-## Introduction
+## Lesson1: Introduction
 - You need to know python, HTML, CSS
 - **Django**: is a python based web framework designed for rapid development of efficient web applications.
 ### Importance of Django?
@@ -35,4 +35,43 @@ Confirm if django is installed in your project: **pip freeze**
 ### Create Your 1st Project
 create: **django-admin startproject myproject**
 
-## Django Basics
+## Lesson 2: Django Basics
+- creating django app
+* **Activate Venv:**
+- command; pipenv shell
+- With this it is easy to install any 3rd party libraries inside your project wothout worry of dependency mix up in the global file system.
+- it creates a pipfile in your project folder, it keeps all your configurations(dependecies,packages).
+- pip file should never be edited.
+* **Install Django in your venv:**
+- command; pipenv install django
+- it creates the pipfile.lock 
+* **Create your project**
+- syntax: django-admin startproject projectname
+- e.g: django-admin startproject worldtour
+- you can create more than 1 app in your project
+- it creates the manage.py 
+- manage.py should not be altered, it helps in creating your applications
+* **Start creating your app:**
+- cd worldtour - to move to your project folder
+- create app: 
+- syntax: python manage.py startapp appname
+- e.g: python manage.py startapp asiatoursagency
+- The app folder will handle all the operations.
+- The app comes with different files:
+1. __init__.py: it treats a directory as a package. It is used to import app modules elsewhere in your django project.
+2. admin.py: used to register your app models with django's admin panel. This provides a user-fiendly interface to interact with the date model directly from admin interface.
+3. apps.py: it contains configuration class for your application. The config class stores each application's specific settings in that file.
+4. models.py: this is one of the most important files. You define your data models here. Basically each class in this file represents a DB table and the class attributes represent the DB fields. This is where we create our DB
+5. test.py: is used for writing unit tests for your app functionalities
+6. views.py: it handles the request response logic for your application. You can define your functions/classes here and the functions will receive web requests and return web responses. They access the data needed to satisfy the requests via the models.py and delegate formatting to the templates; **VMT(ViewModelTemplate)**
+- Migrations folder: it contains migration files for your application. They are simply how django stores changes to your models, hence your DB schema. Each migration file is time stamped and contains details about the changes being made to the DB.
+### Apps.py file
+- It is very important because we need to link inside our project in settings.py we need to add our application name.
+* 2 ways of storing our application name:
+             * In settings.py: Add it in the installed apps list: 'asiatoursagency' OR 'asiatoursagency.apps.AsiatoursagencyConfig'(this tells django that your application is inside the installed apps already)
+             * In apps.py: access the appname config class
+- In views.py import HTTP Response function: so when a client sends an HTTP request to the server, the servers sends an HTTP response and when a client receives the response, the page is going to be rendered.
+- Handle url routing for it is essentia. 
+- We have a main urls.py for the main project, but we need to manually create a urls.py file in the application level
+- in main urls.py includes the admin path: will help us explore the admin dashboard, add you application url too (this autogenarates the db.sqlite3)
+

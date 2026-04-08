@@ -51,7 +51,7 @@ Make sure you have the following installed:
 4. **Run any Python script**
 
    ```bash
-   python python-basics/variables.py
+   python Python/calculator.py
    ```
 
 5. **Run a Django project**
