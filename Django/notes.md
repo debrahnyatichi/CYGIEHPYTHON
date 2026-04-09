@@ -130,7 +130,7 @@ create: **django-admin startproject myproject**
 
 - in js,  the addEventListener method is used to an event handler to the doc; hence allows you to listen for specific events
 
-## Django Forms
+## Lesson 9: Django Forms
 - They simplify collecting and validating user data through an easy to use framework.
 - They autmatically generate html forms and handle the conversion and validation of data
 - They are useful for tasks like collecting data for models, user input validation or filtering content
@@ -155,3 +155,12 @@ Django simplifies form handling by:
 3. Processing data: includes handling and validating the submitted data.
 - Django automates much of the form handling process, making it easier and secure than writing custom code. 
 
+## Lesson 10: Authentication
+- Authentication is very crucial in web application. 
+- To ensure users can:
+                     * securely log in.
+                     * access protected resources
+                     * manage their accounts
+                     * register and sign in from the website instead of creating a super user with username and password from the command line.
+- Authentication support is bundled as a Django contrib module in django.contrib.auth.
+- This file is responsible for creating your authentication
