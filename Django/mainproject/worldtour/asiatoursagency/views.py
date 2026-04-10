@@ -1,41 +1,12 @@
 from django.shortcuts import render, redirect
 from .models import Tour
-# from .forms import ContactForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-#for class-based views(CBV)
 from django.contrib.auth.mixins import LoginRequiredMixin
-# for class-based views(CBV)
 from django.views import View
-#Import the User class
 from django.contrib.auth.models import User
-#Import the RegisterForm from forms.py
 from .forms import RegisterForm
 
-
-# # Create your views here.
-# # def index(request):
-# #     return render(request, 'tours/index.html')
-
-# #This is the home page view function
-# def home_view(request):
-#     return render(request, 'tours/home.html')
-
-# #This is to define the contact_view function to the contact form
-# def contact_view(request):
-#     if request.method == "POST":
-#         form = ContactForm(request.POST)
-#         if form.is_valid():
-#             form.send_email()
-#             return redirect('contact-success')
-#     else:
-#         form = ContactForm()
-#     context = {'form':form}
-#     return render(request, 'tours/contact.html', context)
-
-# #Define the contact_success_view function to handle the success page
-# def contact_success_view(request):
-#     return render(request, 'tours/contact_success.html')
 
 def register_view(request):
     if request.method == "POST":
@@ -46,9 +17,10 @@ def register_view(request):
             user = User.objects.create_user(username=username, password=password)
             login(request, user)
             return redirect('home')
-        else:
-            form = RegisterForm()
-            return render(request, 'accounts/register.html', {'form': form})
+    else:
+        form = RegisterForm()
+    return render(request, 'accounts/register.html', {'form': form})
+
 
 def login_view(request):
     if request.method == "POST":
@@ -62,6 +34,9 @@ def login_view(request):
         else:
             error_message = "Invalid Credentials!"
             return render(request, 'accounts/login.html', {'error': error_message})
+    # GET request — render the empty login form
+    return render(request, 'accounts/login.html')
+
 
 def logout_view(request):
     if request.method == "POST":
@@ -70,16 +45,14 @@ def logout_view(request):
     else:
         return redirect('home')
 
-#Home View
-#using the decorator
+
 @login_required
 def home_view(request):
-    return render(request, 'home/home.html')
+    return render(request, 'auth1_app/home.html')
 
-#protected view
+
 class ProtectedView(LoginRequiredMixin, View):
     login_url = '/login/'
-    #'next'- to redirect url
     redirect_field_name = 'redirect_to'
 
     def get(self, request):
