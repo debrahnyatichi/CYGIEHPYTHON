@@ -176,3 +176,8 @@ Django simplifies form handling by:
 -Install dependencies:
 3. install django-crispy forms: pipenv install django-crispy-forms
 4. install crispy bootstrap5: pipenv install crispy-bootstrap5
+- Start building
+5. Start your project: django-admin startproject invProject
+6. change to project directory: cd invProject
+7. create your application: python manage.py startapp invApp
+8. in invProject-settings.py add your apps; In installed apps section add: 'invApp', 'crispy_forms', 'crispy_bootstrap5',
