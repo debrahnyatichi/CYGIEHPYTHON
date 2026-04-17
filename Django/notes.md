@@ -171,6 +171,7 @@ Django simplifies form handling by:
 - django-crispy forms: helps you manage django forms in a more elegant and dry(don't repeat yourself) way.
 - It allows you to define your forms using django form classes and easily render them in your template with custom styling.
 ### Final Project
+#### Backend design
 1. Activate virtual environment: pipenv shell
 2. Install django inside the project: pipenv install django
 -Install dependencies:
@@ -191,5 +192,10 @@ Django simplifies form handling by:
 * create form labels
 * create widgets: used to specify the type of input widget that should be used to render each form field in the html template.
 
-- views.py: Handling user requests and rendering responses: create Home and CRUD Views
+14. views.py: Handling user requests and rendering responses: create Home and CRUD Views
 - urls.py: acts as a router for directing incoming requests to the appropriate views.
+15. create urls.py file in your invApp
+16. include the app url path in project url.
+
+#### Frontend Design
+
