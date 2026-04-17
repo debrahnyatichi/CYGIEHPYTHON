@@ -190,3 +190,6 @@ Django simplifies form handling by:
 13. create a file(forms.py) in invApp folder
 * create form labels
 * create widgets: used to specify the type of input widget that should be used to render each form field in the html template.
+
+- views.py: Handling user requests and rendering responses: create Home and CRUD Views
+- urls.py: acts as a router for directing incoming requests to the appropriate views.
