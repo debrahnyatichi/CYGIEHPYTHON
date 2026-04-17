@@ -170,4 +170,9 @@ Django simplifies form handling by:
 - Frontend: html pages
 - django-crispy forms: helps you manage django forms in a more elegant and dry(don't repeat yourself) way.
 - It allows you to define your forms using django form classes and easily render them in your template with custom styling.
-
+### Final Project
+1. Activate virtual environment: pipenv shell
+2. Install django inside the project: pipenv install django
+-Install dependencies:
+3. install django-crispy forms: pipenv install django-crispy-forms
+4. install crispy bootstrap5: pipenv install crispy-bootstrap5
