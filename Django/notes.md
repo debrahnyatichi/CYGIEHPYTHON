@@ -184,3 +184,5 @@ Django simplifies form handling by:
 9. in settings.py specify crispy template pack; at the bottom: CRISPY_TEMPLATE_PACK = 'bootstrap5'
 - create models in models.py
 10. in invApp->models.py: define product class
+11. make migrations: python manage.py makemigrations
+12. apply migrations: python manage.py migrate: it creates an initial migration in migrations folder
