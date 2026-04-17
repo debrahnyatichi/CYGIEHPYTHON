@@ -188,3 +188,5 @@ Django simplifies form handling by:
 12. apply migrations: python manage.py migrate: it creates an initial migration in migrations folder
 - create the forms
 13. create a file(forms.py) in invApp folder
+* create form labels
+* create widgets: used to specify the type of input widget that should be used to render each form field in the html template.
