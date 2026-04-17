@@ -164,3 +164,10 @@ Django simplifies form handling by:
                      * register and sign in from the website instead of creating a super user with username and password from the command line.
 - Authentication support is bundled as a Django contrib module in django.contrib.auth.
 - This file is responsible for creating your authentication
+
+## Lesson 11-13: App Build
+- Backend: server setup, DBs
+- Frontend: html pages
+- django-crispy forms: helps you manage django forms in a more elegant and dry(don't repeat yourself) way.
+- It allows you to define your forms using django form classes and easily render them in your template with custom styling.
+
