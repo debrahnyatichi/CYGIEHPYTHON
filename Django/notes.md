@@ -186,3 +186,5 @@ Django simplifies form handling by:
 10. in invApp->models.py: define product class
 11. make migrations: python manage.py makemigrations
 12. apply migrations: python manage.py migrate: it creates an initial migration in migrations folder
+- create the forms
+13. create a file(forms.py) in invApp folder
