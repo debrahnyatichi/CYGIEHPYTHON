@@ -181,3 +181,4 @@ Django simplifies form handling by:
 6. change to project directory: cd invProject
 7. create your application: python manage.py startapp invApp
 8. in invProject-settings.py add your apps; In installed apps section add: 'invApp', 'crispy_forms', 'crispy_bootstrap5',
+9. in settings.py specify crispy template pack; at the bottom: CRISPY_TEMPLATE_PACK = 'bootstrap5'
